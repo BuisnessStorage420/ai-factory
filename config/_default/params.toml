@@ -1,0 +1,4 @@
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+showAppearanceSwitcher = true

@@ -1,0 +1,6 @@
+/* Force visibility in dark mode by overriding Tailwind's neutral text classes */
+.dark .homepage .card h3,
+.dark .homepage .card p,
+.dark .homepage .card a {
+    color: #ffffff !important;
+}

@@ -1,0 +1,3 @@
+baseURL = "/"
+locale = "en-us"
+theme = "blowfish"

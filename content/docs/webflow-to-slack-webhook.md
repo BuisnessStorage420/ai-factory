@@ -23,7 +23,6 @@ Before initiating the synchronization process, ensure the following components a
     4.  Activate Incoming Webhooks.
     5.  Click "Add New Webhook to Workspace," choose the target channel, and authorize.
     6.  Copy the generated "Webhook URL." This URL will be the final destination for transformed data.
-        *Example URL:* `https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX`
 *   **Intermediary Endpoint (Custom Webhook Handler)**: A publicly accessible HTTP/S endpoint capable of receiving POST requests from Webflow, processing the payload, and subsequently making another POST request to the Slack Incoming Webhook URL. This can be a serverless function (e.g., AWS Lambda, Google Cloud Functions, Vercel Edge Functions) or a custom API endpoint hosted on a web server. This endpoint acts as the crucial transformation layer, as Webflow's native payload format is not directly compatible with Slack's expected structure. No specific authentication is typically required for Webflow to *send* to this endpoint, but the endpoint itself should implement security measures if sensitive data is involved.
 
 ## 2. Setting up the Trigger in Webflow

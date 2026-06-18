@@ -1,7 +1,6 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'AI Factory Documentation'
+title = 'Enterprise Webhook Integration Hub'
 theme = 'hextra'
 
-[params]
-  darkMode = true
+

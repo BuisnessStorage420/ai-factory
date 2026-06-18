@@ -1,3 +1,7 @@
-baseURL = "/"
-locale = "en-us"
-theme = "blowfish"
+baseURL = '/'
+languageCode = 'en-us'
+title = 'AI Factory Documentation'
+theme = 'hextra'
+
+[params]
+  darkMode = true
